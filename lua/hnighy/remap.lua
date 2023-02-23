@@ -22,11 +22,8 @@ vim.keymap.set("n", "<leader>T", ":NvimTreeFindFile<CR>")
 
 vim.keymap.set("n", "<leader>B", "<C-w>l")
 
--- Fine CMD Line
-vim.keymap.set("n", ":", ":FineCmdline<CR>")
-
 -- HTML Helpers
 
 -- Float Term
-vim.keymap.set("n", "<leader>T", ":FloatermNew<CR>")
-vim.keymap.set("t", "<leader>T", ":FloatermToggle<CR>")
+vim.keymap.set("n", "!", "<cmd>FloatermToggle<CR>")
+vim.keymap.set("t", "<esc>", "<cmd>FloatermToggle<CR>")
