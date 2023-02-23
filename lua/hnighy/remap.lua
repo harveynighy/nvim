@@ -24,6 +24,6 @@ vim.keymap.set("n", "<leader>B", "<C-w>l")
 
 -- HTML Helpers
 
--- Float Term
+-- Floaterm
 vim.keymap.set("n", "!", "<cmd>FloatermToggle<CR>")
 vim.keymap.set("t", "<esc>", "<cmd>FloatermToggle<CR>")
