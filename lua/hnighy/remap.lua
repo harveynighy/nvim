@@ -28,3 +28,6 @@ vim.keymap.set("n", "<leader>B", "<C-w>l")
 vim.keymap.set("n", "!", "<cmd>FloatermToggle<CR>")
 vim.keymap.set("t", "<esc>", "<cmd>FloatermToggle<CR>")
 vim.keymap.set("t", "!", "<cmd>FloatermToggle<CR>")
+
+
+vim.keymap.set("n", "<leader>fr", ":%s//<Left>")
